@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <!-- 基本元数据 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="布丁狗可爱照片画廊 - 收集各种布丁狗的萌照">
+    <title>布丁狗照片画廊 - 萌照合集</title>
+    <!-- CSS样式表 -->
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" href="css/hualang.css">
+    
+    <!-- 字体图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- Lightbox2 插件 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+
+    <!-- 顶部导航栏 -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/微信图片_20250605104156.jpg" alt="布丁狗logo" width="60" height="60">&ensp;&ensp;
+                <h1>布丁狗 <span>Pompompurin</span></h1>
+            </div>
+            
+            <!-- 主导航菜单 -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> 首页</a></li>
+                    <li><a href="guanyu.html"><i class="fas fa-info-circle"></i> 关于</a></li>
+                    <li><a href="hualang.html"><i class="fas fa-images"></i> 画廊</a></li>
+                    <li><a href="lianxi.html"><i class="fas fa-envelope"></i> 联系</a></li>
+                </ul>
+            </nav>
+            
+            <!-- 移动端菜单按钮 -->
+            <button class="mobile-menu-btn" aria-label="菜单">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- 主要内容区域 -->
+    <main>
+        <!-- 画廊页标题 -->
+        <section class="gallery-header" style="margin-top: 80px;">
+            <div class="container">
+                <h1>布丁狗照片画廊</h1>
+                <p>收集各种布丁狗的可爱瞬间</p >
+                <div class="gallery-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-images"></i>
+                        <span>128</span> 张照片
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-heart"></i>
+                        <span>1,024</span> 次点赞
+                    </div>
+                </div>
+            </div>
+            <div class="header-deco"></div>
+        </section>
+
+
+        <!-- 照片画廊 -->
+        <section class="photo-gallery">
+            <div class="container">
+                <!-- 照片1 - 单人 -->
+                <div class="gallery-item" data-category="solo">
+                    <a href="images/gallery1.jpg" data-lightbox="gallery" data-title="布丁狗在公园玩耍">
+                        <img src="img/微信图片_202506051411441.jpg" alt="布丁狗在公园玩耍">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>公园玩耍</h3>
+                                <p>布丁狗在公园快乐奔跑</p >
+                                <div class="photo-meta">
+                                    <span><i class="fas fa-heart"></i> 124</span>
+                                    <span><i class="fas fa-comment"></i> 23</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a >
+                </div>
+                
+                <!-- 照片2 - 朋友 -->
+                <div class="gallery-item" data-category="friends">
+                    <a href="images/gallery2.jpg" data-lightbox="gallery" data-title="布丁狗和玛芬一起野餐">
+                        <img src="img/微信图片_202506051411442.jpg" alt="布丁狗和玛芬一起野餐">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>野餐时光</h3>
+                                <p>布丁狗和玛芬共享美食</p >
+                                <div class="photo-meta">
+                                    <span><i class="fas fa-heart"></i> 98</span>
+                                    <span><i class="fas fa-comment"></i> 15</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a >
+                </div>
+                
+                <!-- 照片3 - 季节限定 -->
+                <div class="gallery-item" data-category="seasonal">
+                    <a href="images/gallery3.jpg" data-lightbox="gallery" data-title="布丁狗夏日海滩">
+                        <img src="img/微信图片_202506051411443.jpg" alt="布丁狗夏日海滩">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>夏日海滩</h3>
+                                <p>布丁狗享受清凉夏日</p >
+                                <div class="photo-meta">
+                                    <span><i class="fas fa-heart"></i> 156</span>
+                                    <span><i class="fas fa-comment"></i> 32</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a >
+                </div>
+                
+                <!-- 照片4 - 特别活动 -->
+                <div class="gallery-item" data-category="special">
+                    <a href="images/gallery4.jpg" data-lightbox="gallery" data-title="布丁狗生日派对">
+                        <img src="img/微信图片_20250605141145.jpg" alt="布丁狗生日派对">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>生日派对</h3>
+                                <p>布丁狗庆祝生日</p >
+                                <div class="photo-meta">
+                                    <span><i class="fas fa-heart"></i> 210</span>
+                                    <span><i class="fas fa-comment"></i> 45</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a >
+                </div>
+                
+                <!-- 照片5 - 单人 -->
+                <div class="gallery-item" data-category="solo">
+                    <a href="images/gallery5.jpg" data-lightbox="gallery" data-title="布丁狗午睡时间">
+                        <img src="img/微信图片_202506051411451.jpg" alt="布丁狗午睡时间">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>午睡时间</h3>
+                                <p>布丁狗甜甜入睡</p >
+                                <div class="photo-meta">
+                                    <span><i class="fas fa-heart"></i> 187</span>
+                                    <span><i class="fas fa-comment"></i> 28</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a >
+                </div>
+                
+                <!-- 照片6 - 朋友 -->
+                <div class="gallery-item" data-category="friends">
+                    <a href="images/gallery6.jpg" data-lightbox="gallery" data-title="布丁狗和朋友们">
+                        <img src="img/微信图片_202506051411452.jpg" alt="布丁狗和朋友们">
+                        <div class="gallery-overlay">
+                            <div class="overlay-content">
+                                <h3>朋友聚会</h3>
+                                <p>布丁狗和所有好朋友</p >
+                                <div class="photo-meta">
+                                    <span><i class="fas fa-heart"></i> 176</span>
+                                    <span><i class="fas fa-comment"></i> 39</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a >
+                </div>
+            </div>
+            
+            <!-- 加载更多按钮 -->
+            <div class="load-more">
+                <button class="btn btn-primary">加载更多照片 <i class="fas fa-plus"></i></button>
+            </div>
+        </section>
+
+        <!-- 视频画廊 -->
+        <section class="video-gallery">
+            <div class="container">
+                <h2 class="section-title">布丁狗视频</h2>
+                <p class="section-subtitle">观看布丁狗的可爱视频</p >
+                
+                <div class="video-grid">
+                    <!-- 视频1 -->
+                    <div class="video-item">
+                        <img src="img/微信图片_202506051411453.jpg" style="width: 450px; height: 350px; object-fit: cover;"/>
+                        <div class="video-info">
+                            <h3>布丁狗的日常</h3>
+                            <p>看看布丁狗一天都做些什么</p >
+                            <div class="video-meta">
+                                <span><i class="fas fa-eye"></i> 12,345</span>
+                                <span><i class="fas fa-calendar-alt"></i> 2023-05-15</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 视频2 -->
+                    <div class="video-item">
+                        <img src="img/微信图片_202506051411454.jpg"  style="width: 450px; height: 350px; object-fit: cover;"/>
+                        <div class="video-info">
+                            <h3>布丁狗生日特辑</h3>
+                            <p>布丁狗庆祝生日的特别视频</p >
+                            <div class="video-meta">
+                                <span><i class="fas fa-eye"></i> 23,456</span>
+                                <span><i class="fas fa-calendar-alt"></i> 2023-04-16</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 视频3 -->
+                    <div class="video-item">
+                        <img src="img/微信图片_20250605141134.jpg" style="width: 450px; height: 350px; object-fit: cover;" />
+                        <div class="video-info">
+                            <h3>布丁狗和朋友们的冒险</h3>
+                            <p>布丁狗和玛芬、司康的有趣冒险</p >
+                            <div class="video-meta">
+                                <span><i class="fas fa-eye"></i> 18,765</span>
+                                <span><i class="fas fa-calendar-alt"></i> 2023-03-22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- 页脚关于 -->
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="img/微信图片_20250605104156.jpg" alt="布丁狗logo" width="50" height="50">
+                        <h3>布丁狗 Pompompurin</h3>
+                    </div>
+                    <p>布丁狗官方粉丝站，分享最新资讯、可爱图片和周边信息。</p >
+                    
+                    <div class="footer-social">
+                        <a href=""><i class="fab fa-weibo"></i></a>
+                        <a href=""><i class="fab fa-weixin"></i></a>
+                        <a href=""><i class="fab fa-bilibili"></i></a>
+                        <a href=""><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <!-- 快速链接 -->
+                <div class="footer-links">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><i class="fas fa-paw"></i> 首页</li>
+                        <li><i class="fas fa-info-circle"></i> 关于布丁狗</li>
+                        <li><i class="fas fa-images"></i> 照片画廊</li>
+                        <li><i class="fas fa-envelope"></i> 联系我们</li>
+                    </ul>
+                </div>
+                
+                <!-- 相关资源 -->
+                <div class="footer-resources">
+                    <h3>相关资源</h3>
+                    <ul>
+                        <li><i class="fas fa-shopping-bag"></i> 官方商店</li>
+                        <li><i class="fas fa-ticket-alt"></i> 活动门票</li>
+                        <li><i class="fas fa-book"></i> 布丁狗百科</li>
+                        <li><i class="fas fa-download"></i> 壁纸下载</li>
+                    </ul>
+                </div>
+                
+                <!-- 通讯订阅 -->
+                <div class="footer-newsletter">
+                    <h3>订阅通讯</h3>
+                    <p>订阅获取布丁狗最新资讯和特别优惠！</p >
+                    <form>
+                        <input type="email" placeholder="你的电子邮箱" required>
+                        <button type="submit" class="btn btn-primary">订阅</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- 版权信息 -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 布丁狗 Pompompurin 保留所有权利</p >
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript文件 -->
+    <script src="js/hualang.js"></script>
+    <!-- 初始化Lightbox -->
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'albumLabel': "照片 %1 / %2",
+            'disableScrolling': true
+        })
+    </script>
+</body>
+</html>
